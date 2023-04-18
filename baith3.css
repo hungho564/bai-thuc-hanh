@@ -1,0 +1,549 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial;
+    margin: 0px auto;
+    color: white;
+}
+
+div {
+    min-width: 100px;
+    min-height: 50px;
+}
+
+ .tieude1 .item:hover {
+    background-color: grey;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+
+.muc-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #05284A ;
+}
+
+
+ .muc-1 .tieude {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 160px;
+    font-size: 12px;
+    color: #bbbdc2;
+}
+
+
+.muc-1 .tieude1 .item{
+    font-size: 13px;
+    position: relative;
+    right: 35%;
+
+}
+
+.tieude1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tieude1 .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 19%;
+    font-size: 12px;
+}
+
+
+.muc-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #072E54 ;
+}
+
+
+.muc-2 .tieude {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    min-height: 100px;
+    font-size: 16px;
+}
+
+
+.muc-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #05284A ;
+}
+
+.muc-3 .Hinhanh{
+    position: relative;
+    left: 160px;
+}
+
+
+.inform h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 400px;
+    top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.inform .test-1 {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    font-family: Arial;
+    flex-direction: column;
+    position: relative;
+    right: 400px;
+    top: 30px;
+}
+
+.inform .test-2 {
+    width: 95%;
+    height: 30%;
+    display: flex;
+    font-family: Arial;
+    position: relative;
+    right: 120px; 
+    bottom: 73px;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.form-control {
+    color: white;
+}
+
+.form-control {
+    margin-bottom: 1px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 120%;
+    height: 39px;
+    background: #1B334B;
+    border: none;
+}
+
+.inform button {
+    font-size: 15px;
+    background-color: #1B334B;
+    color: orange;
+    border: 2px solid rgb(230, 127, 11);
+    position: relative;
+    left: 122px; 
+    top: 15px;
+    width: 56%;
+    height: 39px;
+}
+
+.muc-4{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.muc-4 p{
+    color: #888888;
+}
+
+.muc-4 h2 {
+    color:#3B3F47 ;
+}
+
+.muc-4 h4{
+    color:#a9abaf ;
+}
+
+.muc-4 .column-1{
+    font-size: 15px;
+    position: relative;
+    left: 160px;     
+} 
+
+.muc-4 .column-1 .nd-1{
+    margin-top: 30px;
+}
+
+.muc-4 .column-1 .nd-2{
+    position: relative;
+    bottom: 40px; 
+}
+
+.muc-4 .column-1 .nd-3{
+    position: relative;
+    bottom: 80px; 
+}
+
+.muc-4 .column-1 p{
+    color: #1d3fa5;
+}
+
+.muc-4 .boder1{
+    position: relative;
+    right: 160px;
+    bottom: 475px;
+}
+
+.muc-4 .boder2{
+    position: relative;
+    top: 7px;
+}
+
+
+.muc-4 .column-2{
+    color: black;
+    position: relative;
+    top: 1px;
+    left: 190px;
+    font-size: 15px;
+}
+
+.muc-4 .column-2 .boder1{
+    position: relative;
+    right: 122px;
+    bottom: 570px;
+}
+
+.muc-4 .column-2 .nd-1{
+    position: relative;
+    top: 21px;
+}
+
+.muc-4 .column-2  h4 {
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    color: #1d3fa5;
+}
+
+.muc-4 .column-2  p {
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+}
+
+.muc-4 .column-2 .nd-2{
+    position: relative;
+    bottom: 35px;
+}
+
+.muc-4 .column-2 .nd-3{
+    position: relative;
+    bottom: 95px;
+    font-size: 15px;
+}
+
+.muc-4 .column-3 {
+    position: relative;
+    top: 1px;
+}
+
+
+.muc-4 .column-3 .nd-1{
+    position: relative;
+    left: 300px;
+    margin-top: 38px;
+}
+
+.muc-4 .column-3 h2{
+    position: relative;
+    left: 300px;
+    font-size: 23px;
+}
+
+.muc-4 .column-3 p{
+    font-size: 14px;
+}
+
+.muc-4 .column-3 .boder1{
+    position: relative;
+    left: 165px;
+    bottom: 255px;
+}
+
+
+.muc-5 {
+    background-color: #05284A;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: stretch;
+    width: 78%;
+    height: 370px;
+    position: relative;
+    left: 160px;
+    bottom: 190px;
+}
+
+.muc-5 .column-1 ,.column-2 , .column-3 {
+    position: relative;
+    top: 35px;
+}
+
+.muc-5 .column-1{
+    position: relative;
+    left: 15px;
+    
+}
+
+.muc-5 .column-2 {
+    position: relative;
+    right: 20px;
+}
+
+
+.muc-5 .column-3 {
+    position: relative;
+    right: 50px;
+}
+
+
+.muc-5 h2{
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+}
+
+.muc-5 ul {
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+
+.muc-5 li{
+    margin-bottom: 15px;
+    color:  #e9ecf3;
+}
+
+.muc-5 .column-1 .boder1{
+    position: relative;
+    bottom: 170px;
+    right: 70px;
+}
+
+.muc-5 .column-2 .boder1{
+    position: relative;
+    bottom: 135px;
+    right: 80px;
+}
+
+.muc-5 .column-3 .boder1{
+    position: relative;
+    bottom: 170px;
+    right: 60px;
+}
+
+ .muc-6 {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: stretch;
+    position: relative;
+    bottom: 120px;
+}
+
+.muc-6 .column-1 {
+    position: relative;
+    left: 50px;
+}
+
+.muc-6 .column-2{
+    position: relative;
+    left: 40px;
+}
+
+.muc-6 .column-1 .boder2{
+    position: relative;
+    bottom: 250px;
+    right: 95px;
+}
+
+.muc-6 .column-1 .nd-1 {
+    border: 2px solid #F5F5F5;
+    position: relative;
+    top: 30px;
+    width: 160%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.muc-6 .column-1 .nd-2 {
+    border: 2px solid #F5F5F5;
+    position: relative;
+    top: 30px;
+    width: 160%;
+    height: 100px;
+    margin-bottom: 20px;
+} 
+
+ .muc-6 .column-1  h4 {
+    position: relative;
+    left: 125px;
+    bottom: 90px;
+    color: blue;
+}
+
+.muc-6 .column-1  p {
+    position: relative;
+    left: 125px;
+    bottom: 90px;
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+.muc-6 .column-1 .nd-1 .boder1, .nd-2 .boder1{
+    position: relative;
+    bottom: 150px;
+    right: 48px;
+} 
+
+.column-1 .image-1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+} 
+
+.muc-6 .column-2 h2{
+    position: relative;
+    bottom: 37px;
+    right: 40px;
+} 
+
+ .muc-6 .column-2 .nd-1 img {
+    position: relative;
+    bottom: 5px;
+    right: 48px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.muc-6 .column-2 .boder1 {
+    position: relative;
+    bottom: 285px;
+    right: 350px;
+} 
+
+
+ .muc-7{
+    background-color: #02294F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: stretch;
+    height: 370px;
+    position: relative;
+    bottom: 90px;
+} 
+
+.muc-7 .column-1{
+    position: relative;
+    left: 155px;
+    top: 35px;
+}
+
+.muc-7 .column-1 .nd-1 p{
+    position: relative;
+    top: 30px;
+}
+
+.muc-7 .column-2 {
+    position: relative;
+    left: 80px ;
+} 
+
+.muc-7 li{
+    position: relative;
+    right: 25px;
+    top: 25px;
+    color: #e9ecf3;
+
+}
+
+.muc-7 .column-3 {
+    position: relative;
+    right: 100px;
+} 
+
+.muc-7 .column-1 .boder1 {
+    position: relative;
+    right: 80px;
+    bottom: 175px;
+}
+
+.muc-7 .column-2 .boder1 {
+    position: relative;
+    right: 110px;
+    bottom: 110px;
+}
+
+.muc-7 .column-3 .boder1 {
+    position: relative;
+    right: 150px;
+    bottom: 205px;
+}
+
+.muc-7 p {
+    font-size: 13px;
+    position: relative;
+    top: 20px;
+    color: #e9ecf3;
+} 
+
+.muc-7 .column-3 .nd-1 p{
+    margin-bottom: 7px;
+    margin-top: 4px; 
+}
+
+.muc-8{
+    background-color:#012447 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 90px;
+}
+
+.muc-8 .column-1{
+    position: relative;
+    left: 150px;
+    font-size: 15px;
+    color: #e9ecf3;
+} 
